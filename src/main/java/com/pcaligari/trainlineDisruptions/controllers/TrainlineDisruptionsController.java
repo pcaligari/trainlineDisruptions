@@ -9,4 +9,9 @@ public class TrainlineDisruptionsController {
     public String helloAction() {
         return "Hello World!!!";
     }
+
+    @RequestMapping("/")
+    public String indexAction() {
+        return "";
+    }
 }
