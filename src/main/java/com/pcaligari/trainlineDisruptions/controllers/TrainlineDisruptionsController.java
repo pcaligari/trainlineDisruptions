@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class TrainlineDisruptionsController {
-    @RequestMapping("/")
-    public String index() {
+    @RequestMapping("/hello")
+    public String helloAction() {
         return "Hello World!!!";
     }
 }
